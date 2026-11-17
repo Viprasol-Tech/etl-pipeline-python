@@ -65,8 +65,8 @@ result = (
     .run()
 )
 
-print(loader.rows)   # [{'user_id': '1', 'name': 'Ada Lovelace', 'age': 36}]
-print(result)        # PipelineResult(extracted=2, dropped=1, loaded=1)
+print(loader.rows)  # [{'user_id': '1', 'name': 'Ada Lovelace', 'age': 36}]
+print(result)  # PipelineResult(extracted=2, dropped=1, loaded=1)
 ```
 
 ## 🏗️ Architecture
